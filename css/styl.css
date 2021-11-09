@@ -1,16 +1,18 @@
 :root {
 --button-header-color:#ffffff;
 --header-text: #FFFFFF;
+--header-accent-color: #2196F3; 
 --header-bg-button:#2196F3;
+--header-contact: #757575;
+--header-second-text: #212121;
 --first-bg-color: #FFFFFF;
 --second-bg-color: #2F303A;
 --first-titel-color: #212121
 --second-titel-color:#757575;
 --third-titel-color:#FFFFFF;
 --button-color: #2196F3;
---accent-tolor: #2196F3; 
-
-
+--footer-first-color: #FFFFFF;
+--footer-second-collor: rgba(255, 255, 255, 0.6); ;
 } 
 
 /* ----- !!!!!!!!!!!!!!!не поключаються шрифты!!!!!!!!!!!!!! ----------*/
@@ -30,7 +32,7 @@
     text-decoration: none;
 }
 
-/*----------------- hero -----------------*/
+/*----------------- heder -----------------*/
 
 .header-logo {
     font-family: Raleway;
@@ -38,10 +40,19 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
 
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--header-accent-color);
 }
 
 .header-link {
+    color: var(--header-second-text);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -49,6 +60,7 @@
 }
 
 .header-mail {
+    color: var(--header-contact);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -56,6 +68,7 @@
 }
 
 .header-tel {
+    color: var(--header-contact);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -78,4 +91,52 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+}
+
+/* --------------------  hero -----------------*/
+
+
+
+
+
+
+/* -------------------- footer ---------------*/
+
+.footer{ 
+    background-color: var(--second-bg-color);
+}
+
+.footer-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.footer-adress {
+    color: var(--footer-first-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-tel,
+.footer-mail {
+    color: var(--footer-second-collor);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--header-accent-color);
 }
