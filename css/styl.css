@@ -8,16 +8,18 @@
 --first-bg-color: #FFFFFF;
 --second-bg-color: #2F303A;
 --first-titel-color: #212121
---second-titel-color:#757575;
---third-titel-color:#FFFFFF;
+--second-titel-color: #757575;
 --button-color: #2196F3;
 --footer-first-color: #FFFFFF;
 --footer-second-collor: rgba(255, 255, 255, 0.6); ;
+--first-color-logo: #2196F3;
+--second-color-logo: #000000;
+--third-color-logo: #FFFFFF;
 } 
 
 /* ----- !!!!!!!!!!!!!!!не поключаються шрифты!!!!!!!!!!!!!! ----------*/
 
-.body{
+body {
     font-family: "Roboto", sans-serif;
     background-color: var(--first-bg-color);
 }
@@ -35,6 +37,25 @@
 /*----------------- heder -----------------*/
 
 .header-logo {
+    color: var(--first-color-logo);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-black {
+    color: var(--second-color-logo);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-white {
+    color: var(--third-color-logo);
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -95,9 +116,94 @@
 
 /* --------------------  hero -----------------*/
 
+.hero-titel {
+    color: var(--first-titel-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.hero-titel{
+    color: var(--second-titel-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/*------------------- about us ----------------*/
+
+.about-titel{
+    color: var(--first-titel-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 
+/*-------------------- team ----------------*/
 
+.team-titel {
+    color: var(--first-titel-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name {
+    color: var(--first-titel-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.team-text {
+    color: var(--second-titel-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+/*------------------- fillters -------------------*/
+
+.fillters-button:hover,
+.fillters-button:focus {
+    color: var(--button-color);
+}
+
+
+.filters-button {
+    color: var(--first-titel-color);
+    ont-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*-------------------- portfolio -----------------*/
+
+.portfolio-titel {
+    color: var(--first-titel-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text {
+    color: var(--second-titel-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
 
 
 /* -------------------- footer ---------------*/
