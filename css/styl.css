@@ -181,11 +181,21 @@ body {
 .fillters-button:focus {
   background-color: var(--button-color);
   color: var(--button-second-color-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .fillters-button {
   background-color: var(--button-second-color);
   color: var(--button-color-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*-------------------- portfolio -----------------*/
