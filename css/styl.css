@@ -21,8 +21,6 @@
   --third-color-logo: #ffffff;
 }
 
-/* ----- !!!!!!!!!!!!!!!не поключаються шрифты!!!!!!!!!!!!!! ----------*/
-
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--first-bg-color);
@@ -50,7 +48,7 @@ body {
 .logo-black {
   color: var(--second-color-logo);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -59,7 +57,7 @@ body {
 .logo-white {
   color: var(--third-color-logo);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -112,7 +110,7 @@ body {
   color: var(--button-header-color);
   background-color: var(--header-bg-button);
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -131,7 +129,7 @@ body {
 
 .hero-text {
   color: var(--second-titel-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -141,7 +139,7 @@ body {
 
 .about-titel {
   color: var(--first-titel-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -152,7 +150,7 @@ body {
 
 .team-titel {
   color: var(--first-titel-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -169,7 +167,7 @@ body {
 
 .team-text {
   color: var(--second-titel-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -181,6 +179,11 @@ body {
 .fillters-button:focus {
   background-color: var(--button-color);
   color: var(--button-second-color-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .fillters-button {
@@ -197,7 +200,7 @@ body {
 
 .portfolio-titel {
   color: var(--first-titel-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -219,7 +222,7 @@ body {
 .footer-logo {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -227,7 +230,7 @@ body {
 
 .footer-adress {
   color: var(--footer-first-color);
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -237,7 +240,7 @@ body {
 .footer-tel,
 .footer-mail {
   color: var(--footer-second-collor);
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
