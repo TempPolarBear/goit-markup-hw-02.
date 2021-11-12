@@ -179,6 +179,7 @@ body {
 .fillters-button:focus {
   background-color: var(--button-color);
   color: var(--button-second-color-text);
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
